@@ -42,8 +42,8 @@ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | ie
 #### 2. Clonar el repositorio
  
 ```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
+git clone https://github.com/Stivy00/Prueba-Tecnica---Ceiba-Software.git
+cd Prueba-Tecnica---Ceiba-Software
 ```
  
 ---
