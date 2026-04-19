@@ -43,10 +43,10 @@ SELECT
     COALESCE(pay.total_paid_amount, 0) AS amount_collected,
     pay.last_payment_date AS collection_date,
     
-    -- Bandera de Deterioro Temprano. Se realiza el supuesto de que este empieza en los 3 primeros meses
+    -- Bandera de Deterioro Temprano. Se realiza el supuesto de que este empieza en los 12 primeros meses
     CASE 
         WHEN inst.installment_status = 'LATE' 
-        AND DATE_DIFF(inst.due_date, ln.origination_date, MONTH) <= 3 
+        AND DATE_DIFF(inst.due_date, ln.origination_date, MONTH) <= 12 
         THEN 1 ELSE 0 
     END AS is_early_deterioration
 
