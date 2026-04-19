@@ -17,5 +17,7 @@ Las preguntas de negocio fueron generadas como Vistas de Bigquery, lo cual facil
 Looker o PBI
 
 En cuanto a la validacion de Calidad de Datos, se declara que se uso la IA Claude para que generara un script de validacion de datos
-que permitiera revisar todos los datasets generados en el proyecto y aplicara las reglas estipuladas en el archivo "evidencia-calidad-datos.md".
-La IA tambien facilito un archivo README.md claro sobre este repositorio y su contenido.
+que permitiera revisar todos los datasets generados en el proyecto y aplicara las reglas estipuladas en el archivo 
+"evidencia-calidad-datos.md". Esto con el fin de facilitar las validaciones de calidad de datos y adelantar la creacion del script 
+mientras me enfocaba en el resto de artefactos a generar
+La IA de Copilot tambien facilito un archivo README.md claro sobre este repositorio y su contenido.
